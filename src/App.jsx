@@ -2,8 +2,8 @@ import {Routes, Route} from 'react-router-dom';
 
 import NavbarComponent from './components/NavbarComponent';
 import Homepage from './pages/Homepage';
+import Promo from './pages/Promopage';
 import Kelaspage from './pages/Kelaspage';
-
 import Faqpage from './pages/Faqpage';
 import SyaratKetenpage from './pages/SyaratKetenpage';
 import Footercomponent from './components/Footercomponent';
@@ -18,6 +18,7 @@ function App() {
     <NavbarComponent/>
     <Routes>
       <Route path='/' Component={Homepage} />
+      <Route path='/promo' Component={Promo} />
       <Route path='/kelas' Component={Kelaspage} />
       <Route path='/testimonial' Component={Testimonial} />
       <Route path='/faq' Component={Faqpage} />

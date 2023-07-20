@@ -35,7 +35,7 @@ const NavbarComponent = () => {
               })}
             </Nav>
             <div className="text-center">
-              <button className="btn btn-outline-danger rounded-1">Join With Us</button>
+              <button className="btn btn-outline-success text-dark rounded-1">Join With Us</button>
             </div>
           </Navbar.Collapse>
         </Container>
